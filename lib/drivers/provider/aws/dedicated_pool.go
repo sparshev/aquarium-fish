@@ -104,7 +104,7 @@ func (w *dedicatedPoolWorker) AvailableCapacity(instanceType string) int64 {
 	}
 
 	// Let's add the amount of instances we can allocate
-	instCount += (int64(w.record.Max) - int64(len(w.activeHosts))) * int64(w.instancesPerHost)
+	instCount += max(int64(w.record.Max)-int64(len(w.activeHosts)), 0) * int64(w.instancesPerHost)
 
 	logger.Debug("AvailableCapacity for dedicated host type", "type", w.record.Type, "capacity", instCount)
 
