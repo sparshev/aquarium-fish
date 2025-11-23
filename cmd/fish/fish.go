@@ -1,5 +1,6 @@
 /**
  * Copyright 2021 Adobe. All rights reserved.
+ * Copyright 2025 Sergei Parshev. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License. You may obtain a copy
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -24,13 +25,13 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/adobe/aquarium-fish/lib/build"
-	"github.com/adobe/aquarium-fish/lib/crypt"
-	"github.com/adobe/aquarium-fish/lib/database"
-	"github.com/adobe/aquarium-fish/lib/fish"
-	"github.com/adobe/aquarium-fish/lib/log"
-	"github.com/adobe/aquarium-fish/lib/openapi"
-	"github.com/adobe/aquarium-fish/lib/util"
+	"github.com/sparshev/aquarium-fish/lib/build"
+	"github.com/sparshev/aquarium-fish/lib/crypt"
+	"github.com/sparshev/aquarium-fish/lib/database"
+	"github.com/sparshev/aquarium-fish/lib/fish"
+	"github.com/sparshev/aquarium-fish/lib/log"
+	"github.com/sparshev/aquarium-fish/lib/openapi"
+	"github.com/sparshev/aquarium-fish/lib/util"
 )
 
 func main() {

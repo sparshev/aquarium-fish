@@ -1,5 +1,6 @@
 /**
  * Copyright 2024 Adobe. All rights reserved.
+ * Copyright 2025 Sergei Parshev.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License. You may obtain a copy
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -22,9 +23,9 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/adobe/aquarium-fish/lib/crypt"
-	"github.com/adobe/aquarium-fish/lib/log"
-	"github.com/adobe/aquarium-fish/lib/openapi/types"
+	"github.com/sparshev/aquarium-fish/lib/crypt"
+	"github.com/sparshev/aquarium-fish/lib/log"
+	"github.com/sparshev/aquarium-fish/lib/openapi/types"
 )
 
 // NOTE: This proxy was highly influenced by Remco Verhoef's ideas in

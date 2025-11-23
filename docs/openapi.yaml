@@ -13,12 +13,12 @@ info:
   title: Aquarium Fish
   contact:
     name: Sergei Parshev
-    url: 'https://github.com/adobe/aquarium-fish'
+    url: 'https://github.com/sparshev/aquarium-fish'
   license:
     name: Apache 2.0
 
 externalDocs:
-  url: 'https://github.com/adobe/aquarium-fish/wiki/Aquarium'
+  url: 'https://github.com/sparshev/aquarium-fish/wiki/Aquarium'
 
 paths:
   /api/v1/user/:
