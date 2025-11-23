@@ -1,5 +1,6 @@
 /**
  * Copyright 2025 Adobe. All rights reserved.
+ * Copyright 2025 Aquarium Developers. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License. You may obtain a copy
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -15,7 +16,7 @@
 package aquariumv2
 
 import (
-	pbTypes "github.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2"
+	pbTypes "github.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2"
 )
 
 // RoleBasedAccessControl is a data for RoleBasedAccessControl without internal locks

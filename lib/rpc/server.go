@@ -1,5 +1,6 @@
 /**
  * Copyright 2025 Adobe. All rights reserved.
+ * Copyright 2025 Aquarium Developers. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License. You may obtain a copy
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -25,12 +26,12 @@ import (
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
 
-	"github.com/adobe/aquarium-fish/lib/auth"
-	"github.com/adobe/aquarium-fish/lib/drivers/gate"
-	"github.com/adobe/aquarium-fish/lib/fish"
-	"github.com/adobe/aquarium-fish/lib/log"
-	"github.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2/aquariumv2connect"
-	rpcutil "github.com/adobe/aquarium-fish/lib/rpc/util"
+	"github.com/sparshev/aquarium-fish/lib/auth"
+	"github.com/sparshev/aquarium-fish/lib/drivers/gate"
+	"github.com/sparshev/aquarium-fish/lib/fish"
+	"github.com/sparshev/aquarium-fish/lib/log"
+	"github.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2/aquariumv2connect"
+	rpcutil "github.com/sparshev/aquarium-fish/lib/rpc/util"
 )
 
 // Server represents the Connect server

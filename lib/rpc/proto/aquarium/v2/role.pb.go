@@ -1,4 +1,5 @@
 // Copyright 2025 Adobe. All rights reserved.
+// Copyright 2025 Aquarium Developers. All rights reserved.
 // This file is licensed to you under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License. You may obtain a copy
 // of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -718,7 +719,7 @@ const file_aquarium_v2_role_proto_rawDesc = "" +
 	"\x03Get\x12\".aquarium.v2.RoleServiceGetRequest\x1a#.aquarium.v2.RoleServiceGetResponse\"\x00\x12Y\n" +
 	"\x06Create\x12%.aquarium.v2.RoleServiceCreateRequest\x1a&.aquarium.v2.RoleServiceCreateResponse\"\x00\x12Y\n" +
 	"\x06Update\x12%.aquarium.v2.RoleServiceUpdateRequest\x1a&.aquarium.v2.RoleServiceUpdateResponse\"\x00\x12Y\n" +
-	"\x06Remove\x12%.aquarium.v2.RoleServiceRemoveRequest\x1a&.aquarium.v2.RoleServiceRemoveResponse\"\x00BEZCgithub.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
+	"\x06Remove\x12%.aquarium.v2.RoleServiceRemoveRequest\x1a&.aquarium.v2.RoleServiceRemoveResponse\"\x00BHZFgithub.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
 
 var (
 	file_aquarium_v2_role_proto_rawDescOnce sync.Once

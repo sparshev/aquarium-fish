@@ -1,4 +1,5 @@
 // Copyright 2025 Adobe. All rights reserved.
+// Copyright 2025 Aquarium Developers. All rights reserved.
 // This file is licensed to you under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License. You may obtain a copy
 // of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -147,7 +148,7 @@ const file_aquarium_v2_options_rbac_proto_rawDesc = "" +
 	"\x12additional_actions\x18\x04 \x03(\tR\x11additionalActionsB\x18\n" +
 	"\x16_allow_unauthenticatedB\x17\n" +
 	"\x15_no_permission_needed:o\n" +
-	"\x0eaccess_control\x12\x1e.google.protobuf.MethodOptions\x18І\x03 \x01(\v2#.aquarium.v2.RoleBasedAccessControlR\raccessControl\x88\x01\x01BEZCgithub.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
+	"\x0eaccess_control\x12\x1e.google.protobuf.MethodOptions\x18І\x03 \x01(\v2#.aquarium.v2.RoleBasedAccessControlR\raccessControl\x88\x01\x01BHZFgithub.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
 
 var (
 	file_aquarium_v2_options_rbac_proto_rawDescOnce sync.Once

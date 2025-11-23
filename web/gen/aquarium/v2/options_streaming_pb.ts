@@ -1,4 +1,5 @@
 // Copyright 2025 Adobe. All rights reserved.
+// Copyright 2025 Aquarium Developers. All rights reserved.
 // This file is licensed to you under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License. You may obtain a copy
 // of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -33,7 +34,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file aquarium/v2/options_streaming.proto.
  */
 export const file_aquarium_v2_options_streaming: GenFile = /*@__PURE__*/
-  fileDesc("CiNhcXVhcml1bS92Mi9vcHRpb25zX3N0cmVhbWluZy5wcm90bxILYXF1YXJpdW0udjIiRQoPU3Vic2NyaWJlQ29uZmlnEh0KEHBlcm1pc3Npb25fY2hlY2sYASABKAlIAIgBAUITChFfcGVybWlzc2lvbl9jaGVjazptChBzdWJzY3JpYmVfY29uZmlnEh8uZ29vZ2xlLnByb3RvYnVmLk1lc3NhZ2VPcHRpb25zGNGGAyABKAsyHC5hcXVhcml1bS52Mi5TdWJzY3JpYmVDb25maWdSD3N1YnNjcmliZUNvbmZpZ4gBATpaChZza2lwX3NlcnZpY2Vfc3RyZWFtaW5nEh8uZ29vZ2xlLnByb3RvYnVmLlNlcnZpY2VPcHRpb25zGNKGAyABKAhSFHNraXBTZXJ2aWNlU3RyZWFtaW5niAEBQkVaQ2dpdGh1Yi5jb20vYWRvYmUvYXF1YXJpdW0tZmlzaC9saWIvcnBjL3Byb3RvL2FxdWFyaXVtL3YyO2FxdWFyaXVtdjJiBnByb3RvMw", [file_google_protobuf_descriptor]);
+  fileDesc("CiNhcXVhcml1bS92Mi9vcHRpb25zX3N0cmVhbWluZy5wcm90bxILYXF1YXJpdW0udjIiRQoPU3Vic2NyaWJlQ29uZmlnEh0KEHBlcm1pc3Npb25fY2hlY2sYASABKAlIAIgBAUITChFfcGVybWlzc2lvbl9jaGVjazptChBzdWJzY3JpYmVfY29uZmlnEh8uZ29vZ2xlLnByb3RvYnVmLk1lc3NhZ2VPcHRpb25zGNGGAyABKAsyHC5hcXVhcml1bS52Mi5TdWJzY3JpYmVDb25maWdSD3N1YnNjcmliZUNvbmZpZ4gBATpaChZza2lwX3NlcnZpY2Vfc3RyZWFtaW5nEh8uZ29vZ2xlLnByb3RvYnVmLlNlcnZpY2VPcHRpb25zGNKGAyABKAhSFHNraXBTZXJ2aWNlU3RyZWFtaW5niAEBQkhaRmdpdGh1Yi5jb20vc3BhcnNoZXYvYXF1YXJpdW0tZmlzaC9saWIvcnBjL3Byb3RvL2FxdWFyaXVtL3YyO2FxdWFyaXVtdjJiBnByb3RvMw", [file_google_protobuf_descriptor]);
 
 /**
  * StreamingConfig defines streaming configuration for a message

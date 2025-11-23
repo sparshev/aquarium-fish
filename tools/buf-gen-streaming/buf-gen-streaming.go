@@ -1,5 +1,6 @@
 /**
  * Copyright 2025 Adobe. All rights reserved.
+ * Copyright 2025 Aquarium Developers. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License. You may obtain a copy
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -27,8 +28,8 @@ import (
 	"google.golang.org/protobuf/types/descriptorpb"
 	"google.golang.org/protobuf/types/pluginpb"
 
-	"github.com/adobe/aquarium-fish/lib/build"
-	aquariumv2 "github.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2"
+	"github.com/sparshev/aquarium-fish/lib/build"
+	aquariumv2 "github.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2"
 )
 
 const (
@@ -77,6 +78,7 @@ type TemplateData struct {
 
 var streamingTemplate = `/**
  * Copyright 2025 Adobe. All rights reserved.
+ * Copyright 2025 Aquarium Developers. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License. You may obtain a copy
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -103,12 +105,12 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	"github.com/adobe/aquarium-fish/lib/auth"
-	"github.com/adobe/aquarium-fish/lib/database"
-	"github.com/adobe/aquarium-fish/lib/log"
-	aquariumv2 "github.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2"
-	rpcutil "github.com/adobe/aquarium-fish/lib/rpc/util"
-	typesv2 "github.com/adobe/aquarium-fish/lib/types/aquarium/v2"
+	"github.com/sparshev/aquarium-fish/lib/auth"
+	"github.com/sparshev/aquarium-fish/lib/database"
+	"github.com/sparshev/aquarium-fish/lib/log"
+	aquariumv2 "github.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2"
+	rpcutil "github.com/sparshev/aquarium-fish/lib/rpc/util"
+	typesv2 "github.com/sparshev/aquarium-fish/lib/types/aquarium/v2"
 )
 
 // subChannels is used to store channels for subscriptions communications
@@ -586,7 +588,7 @@ func generateStreamingService(plugin *protogen.Plugin) error {
 
 	// Generate the file using protogen's file generation system
 	filename := "streaming_service.gen.go"
-	g := plugin.NewGeneratedFile(filename, "github.com/adobe/aquarium-fish/lib/rpc")
+	g := plugin.NewGeneratedFile(filename, "github.com/sparshev/aquarium-fish/lib/rpc")
 
 	// Write the generated content
 	g.P(buf.String())

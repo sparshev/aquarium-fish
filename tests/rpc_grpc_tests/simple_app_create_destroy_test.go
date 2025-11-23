@@ -1,5 +1,6 @@
 /**
  * Copyright 2025 Adobe. All rights reserved.
+ * Copyright 2025 Aquarium Developers. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License. You may obtain a copy
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -21,9 +22,9 @@ import (
 
 	"connectrpc.com/connect"
 
-	aquariumv2 "github.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2"
-	"github.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2/aquariumv2connect"
-	h "github.com/adobe/aquarium-fish/tests/helper"
+	aquariumv2 "github.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2"
+	"github.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2/aquariumv2connect"
+	h "github.com/sparshev/aquarium-fish/tests/helper"
 )
 
 // Test_connect_simple_app_grpc is a simple test with one application and without any limits:

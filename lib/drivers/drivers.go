@@ -1,5 +1,6 @@
 /**
  * Copyright 2021-2025 Adobe. All rights reserved.
+ * Copyright 2025 Aquarium Developers. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License. You may obtain a copy
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -18,22 +19,22 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/adobe/aquarium-fish/lib/database"
-	"github.com/adobe/aquarium-fish/lib/drivers/gate"
-	"github.com/adobe/aquarium-fish/lib/drivers/provider"
-	"github.com/adobe/aquarium-fish/lib/log"
-	"github.com/adobe/aquarium-fish/lib/util"
+	"github.com/sparshev/aquarium-fish/lib/database"
+	"github.com/sparshev/aquarium-fish/lib/drivers/gate"
+	"github.com/sparshev/aquarium-fish/lib/drivers/provider"
+	"github.com/sparshev/aquarium-fish/lib/log"
+	"github.com/sparshev/aquarium-fish/lib/util"
 
 	// Load all the available gate drivers
-	_ "github.com/adobe/aquarium-fish/lib/drivers/gate/github"
-	_ "github.com/adobe/aquarium-fish/lib/drivers/gate/proxyssh"
+	_ "github.com/sparshev/aquarium-fish/lib/drivers/gate/github"
+	_ "github.com/sparshev/aquarium-fish/lib/drivers/gate/proxyssh"
 
 	// Load all the available provider drivers
-	_ "github.com/adobe/aquarium-fish/lib/drivers/provider/aws"
-	_ "github.com/adobe/aquarium-fish/lib/drivers/provider/docker"
-	_ "github.com/adobe/aquarium-fish/lib/drivers/provider/native"
-	_ "github.com/adobe/aquarium-fish/lib/drivers/provider/test"
-	_ "github.com/adobe/aquarium-fish/lib/drivers/provider/vmx"
+	_ "github.com/sparshev/aquarium-fish/lib/drivers/provider/aws"
+	_ "github.com/sparshev/aquarium-fish/lib/drivers/provider/docker"
+	_ "github.com/sparshev/aquarium-fish/lib/drivers/provider/native"
+	_ "github.com/sparshev/aquarium-fish/lib/drivers/provider/test"
+	_ "github.com/sparshev/aquarium-fish/lib/drivers/provider/vmx"
 )
 
 // ConfigDrivers is used in Fish config definition

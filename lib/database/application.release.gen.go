@@ -19,7 +19,7 @@ package database
 import (
 	"context"
 
-	typesv2 "github.com/adobe/aquarium-fish/lib/types/aquarium/v2"
+	typesv2 "github.com/sparshev/aquarium-fish/lib/types/aquarium/v2"
 )
 
 func (d *Database) SubscribeApplication(ctx context.Context, ch chan ApplicationSubscriptionEvent) {

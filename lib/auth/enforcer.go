@@ -1,5 +1,6 @@
 /**
  * Copyright 2025 Adobe. All rights reserved.
+ * Copyright 2025 Aquarium Developers. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License. You may obtain a copy
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -20,13 +21,13 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/adobe/aquarium-fish/lib/database"
-	"github.com/adobe/aquarium-fish/lib/log"
 	"github.com/casbin/casbin/v2"
 	"github.com/casbin/casbin/v2/model"
 	"github.com/casbin/casbin/v2/persist"
+	"github.com/sparshev/aquarium-fish/lib/database"
+	"github.com/sparshev/aquarium-fish/lib/log"
 
-	aquariumv2 "github.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2"
+	aquariumv2 "github.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2"
 )
 
 //go:embed model.conf

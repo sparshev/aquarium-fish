@@ -1,4 +1,5 @@
 // Copyright 2025 Adobe. All rights reserved.
+// Copyright 2025 Aquarium Developers. All rights reserved.
 // This file is licensed to you under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License. You may obtain a copy
 // of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -24,7 +25,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file aquarium/v2/vote.proto.
  */
 export const file_aquarium_v2_vote: GenFile = /*@__PURE__*/
-  fileDesc("ChZhcXVhcml1bS92Mi92b3RlLnByb3RvEgthcXVhcml1bS52MiKzAQoEVm90ZRILCgN1aWQYASABKAkSLgoKY3JlYXRlZF9hdBgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASFwoPYXBwbGljYXRpb25fdWlkGAMgASgJEhAKCG5vZGVfdWlkGAQgASgJEg0KBXJvdW5kGAUgASgNEhEKCWF2YWlsYWJsZRgGIAEoBRITCgtydWxlX3Jlc3VsdBgHIAEoDRIMCgRyYW5kGAggASgNQkVaQ2dpdGh1Yi5jb20vYWRvYmUvYXF1YXJpdW0tZmlzaC9saWIvcnBjL3Byb3RvL2FxdWFyaXVtL3YyO2FxdWFyaXVtdjJiBnByb3RvMw", [file_google_protobuf_timestamp]);
+  fileDesc("ChZhcXVhcml1bS92Mi92b3RlLnByb3RvEgthcXVhcml1bS52MiKzAQoEVm90ZRILCgN1aWQYASABKAkSLgoKY3JlYXRlZF9hdBgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASFwoPYXBwbGljYXRpb25fdWlkGAMgASgJEhAKCG5vZGVfdWlkGAQgASgJEg0KBXJvdW5kGAUgASgNEhEKCWF2YWlsYWJsZRgGIAEoBRITCgtydWxlX3Jlc3VsdBgHIAEoDRIMCgRyYW5kGAggASgNQkhaRmdpdGh1Yi5jb20vc3BhcnNoZXYvYXF1YXJpdW0tZmlzaC9saWIvcnBjL3Byb3RvL2FxdWFyaXVtL3YyO2FxdWFyaXVtdjJiBnByb3RvMw", [file_google_protobuf_timestamp]);
 
 /**
  * Vote represents the current state of Application election process of specific node

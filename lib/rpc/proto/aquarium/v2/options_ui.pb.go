@@ -1,4 +1,5 @@
 // Copyright 2025 Adobe. All rights reserved.
+// Copyright 2025 Aquarium Developers. All rights reserved.
 // This file is licensed to you under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License. You may obtain a copy
 // of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -227,7 +228,7 @@ const file_aquarium_v2_options_ui_proto_rawDesc = "" +
 	"\t_autofillB\v\n" +
 	"\t_required:X\n" +
 	"\tui_config\x12\x1f.google.protobuf.MessageOptions\x18҆\x03 \x01(\v2\x15.aquarium.v2.UiConfigR\buiConfig\x88\x01\x01:f\n" +
-	"\x0ffield_ui_config\x12\x1d.google.protobuf.FieldOptions\x18ӆ\x03 \x01(\v2\x1a.aquarium.v2.FieldUiConfigR\rfieldUiConfig\x88\x01\x01BEZCgithub.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
+	"\x0ffield_ui_config\x12\x1d.google.protobuf.FieldOptions\x18ӆ\x03 \x01(\v2\x1a.aquarium.v2.FieldUiConfigR\rfieldUiConfig\x88\x01\x01BHZFgithub.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
 
 var (
 	file_aquarium_v2_options_ui_proto_rawDescOnce sync.Once

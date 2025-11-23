@@ -1,4 +1,5 @@
 // Copyright 2025 Adobe. All rights reserved.
+// Copyright 2025 Aquarium Developers. All rights reserved.
 // This file is licensed to you under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License. You may obtain a copy
 // of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -173,7 +174,7 @@ const file_aquarium_v2_common_proto_rawDesc = "" +
 	"\x04port\x18\x04 \x01(\x05R\x04port:\x06\x92\xb5\x18\x02\b\x01\"<\n" +
 	"\bResponse\x12\x16\n" +
 	"\x06status\x18\x01 \x01(\bR\x06status\x12\x18\n" +
-	"\amessage\x18\x02 \x01(\tR\amessageBEZCgithub.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
+	"\amessage\x18\x02 \x01(\tR\amessageBHZFgithub.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
 
 var (
 	file_aquarium_v2_common_proto_rawDescOnce sync.Once

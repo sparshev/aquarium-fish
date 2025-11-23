@@ -1,4 +1,5 @@
 // Copyright 2025 Adobe. All rights reserved.
+// Copyright 2025 Aquarium Developers. All rights reserved.
 // This file is licensed to you under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License. You may obtain a copy
 // of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -676,7 +677,7 @@ const file_aquarium_v2_auth_proto_rawDesc = "" +
 	"\x05Login\x12$.aquarium.v2.AuthServiceLoginRequest\x1a%.aquarium.v2.AuthServiceLoginResponse\"\x06\x82\xb5\x18\x02\b\x01\x12t\n" +
 	"\rValidateToken\x12,.aquarium.v2.AuthServiceValidateTokenRequest\x1a-.aquarium.v2.AuthServiceValidateTokenResponse\"\x06\x82\xb5\x18\x02\b\x01\x12q\n" +
 	"\fRefreshToken\x12+.aquarium.v2.AuthServiceRefreshTokenRequest\x1a,.aquarium.v2.AuthServiceRefreshTokenResponse\"\x06\x82\xb5\x18\x02\x10\x01\x12w\n" +
-	"\x0eGetPermissions\x12-.aquarium.v2.AuthServiceGetPermissionsRequest\x1a..aquarium.v2.AuthServiceGetPermissionsResponse\"\x06\x82\xb5\x18\x02\x10\x01\x1a\x04\x90\xb5\x18\x01BEZCgithub.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
+	"\x0eGetPermissions\x12-.aquarium.v2.AuthServiceGetPermissionsRequest\x1a..aquarium.v2.AuthServiceGetPermissionsResponse\"\x06\x82\xb5\x18\x02\x10\x01\x1a\x04\x90\xb5\x18\x01BHZFgithub.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
 
 var (
 	file_aquarium_v2_auth_proto_rawDescOnce sync.Once

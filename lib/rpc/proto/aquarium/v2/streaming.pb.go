@@ -1,4 +1,5 @@
 // Copyright 2025 Adobe. All rights reserved.
+// Copyright 2025 Aquarium Developers. All rights reserved.
 // This file is licensed to you under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License. You may obtain a copy
 // of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -570,7 +571,7 @@ const file_aquarium_v2_streaming_proto_rawDesc = "" +
 	"\aConnect\x12+.aquarium.v2.StreamingServiceConnectRequest\x1a,.aquarium.v2.StreamingServiceConnectResponse\"\n" +
 	"\x82\xb5\x18\x06\x1a\x04User(\x010\x01\x12x\n" +
 	"\tSubscribe\x12-.aquarium.v2.StreamingServiceSubscribeRequest\x1a..aquarium.v2.StreamingServiceSubscribeResponse\"\n" +
-	"\x82\xb5\x18\x06\x1a\x04User0\x01BEZCgithub.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
+	"\x82\xb5\x18\x06\x1a\x04User0\x01BHZFgithub.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
 
 var (
 	file_aquarium_v2_streaming_proto_rawDescOnce sync.Once

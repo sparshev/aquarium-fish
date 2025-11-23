@@ -1,5 +1,6 @@
 /**
  * Copyright 2021-2025 Adobe. All rights reserved.
+ * Copyright 2025 Aquarium Developers. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License. You may obtain a copy
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -28,12 +29,12 @@ import (
 
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 
-	"github.com/adobe/aquarium-fish/lib/drivers"
-	"github.com/adobe/aquarium-fish/lib/fish"
-	"github.com/adobe/aquarium-fish/lib/log"
-	"github.com/adobe/aquarium-fish/lib/rpc"
-	"github.com/adobe/aquarium-fish/lib/server/meta"
-	"github.com/adobe/aquarium-fish/lib/web"
+	"github.com/sparshev/aquarium-fish/lib/drivers"
+	"github.com/sparshev/aquarium-fish/lib/fish"
+	"github.com/sparshev/aquarium-fish/lib/log"
+	"github.com/sparshev/aquarium-fish/lib/rpc"
+	"github.com/sparshev/aquarium-fish/lib/server/meta"
+	"github.com/sparshev/aquarium-fish/lib/web"
 )
 
 // Wrapper wraps both HTTP and RPC servers for coordinated shutdown

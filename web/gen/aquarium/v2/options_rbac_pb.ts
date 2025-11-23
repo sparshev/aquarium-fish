@@ -1,4 +1,5 @@
 // Copyright 2025 Adobe. All rights reserved.
+// Copyright 2025 Aquarium Developers. All rights reserved.
 // This file is licensed to you under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License. You may obtain a copy
 // of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -33,7 +34,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file aquarium/v2/options_rbac.proto.
  */
 export const file_aquarium_v2_options_rbac: GenFile = /*@__PURE__*/
-  fileDesc("Ch5hcXVhcml1bS92Mi9vcHRpb25zX3JiYWMucHJvdG8SC2FxdWFyaXVtLnYyIsUBChZSb2xlQmFzZWRBY2Nlc3NDb250cm9sEiIKFWFsbG93X3VuYXV0aGVudGljYXRlZBgBIAEoCEgAiAEBEiEKFG5vX3Blcm1pc3Npb25fbmVlZGVkGAIgASgISAGIAQESFQoNYWxsb3dlZF9yb2xlcxgDIAMoCRIaChJhZGRpdGlvbmFsX2FjdGlvbnMYBCADKAlCGAoWX2FsbG93X3VuYXV0aGVudGljYXRlZEIXChVfbm9fcGVybWlzc2lvbl9uZWVkZWQ6bwoOYWNjZXNzX2NvbnRyb2wSHi5nb29nbGUucHJvdG9idWYuTWV0aG9kT3B0aW9ucxjQhgMgASgLMiMuYXF1YXJpdW0udjIuUm9sZUJhc2VkQWNjZXNzQ29udHJvbFINYWNjZXNzQ29udHJvbIgBAUJFWkNnaXRodWIuY29tL2Fkb2JlL2FxdWFyaXVtLWZpc2gvbGliL3JwYy9wcm90by9hcXVhcml1bS92MjthcXVhcml1bXYyYgZwcm90bzM", [file_google_protobuf_descriptor]);
+  fileDesc("Ch5hcXVhcml1bS92Mi9vcHRpb25zX3JiYWMucHJvdG8SC2FxdWFyaXVtLnYyIsUBChZSb2xlQmFzZWRBY2Nlc3NDb250cm9sEiIKFWFsbG93X3VuYXV0aGVudGljYXRlZBgBIAEoCEgAiAEBEiEKFG5vX3Blcm1pc3Npb25fbmVlZGVkGAIgASgISAGIAQESFQoNYWxsb3dlZF9yb2xlcxgDIAMoCRIaChJhZGRpdGlvbmFsX2FjdGlvbnMYBCADKAlCGAoWX2FsbG93X3VuYXV0aGVudGljYXRlZEIXChVfbm9fcGVybWlzc2lvbl9uZWVkZWQ6bwoOYWNjZXNzX2NvbnRyb2wSHi5nb29nbGUucHJvdG9idWYuTWV0aG9kT3B0aW9ucxjQhgMgASgLMiMuYXF1YXJpdW0udjIuUm9sZUJhc2VkQWNjZXNzQ29udHJvbFINYWNjZXNzQ29udHJvbIgBAUJIWkZnaXRodWIuY29tL3NwYXJzaGV2L2FxdWFyaXVtLWZpc2gvbGliL3JwYy9wcm90by9hcXVhcml1bS92MjthcXVhcml1bXYyYgZwcm90bzM", [file_google_protobuf_descriptor]);
 
 /**
  * RoleBasedAccessControl defines the RBAC policy for a method
