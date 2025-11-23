@@ -115,7 +115,7 @@ func (d *Driver) serveConnection(clientConn net.Conn) error {
 	return nil
 }
 
-func (d *Driver) establishConnection(clientConn net.Conn) (*ssh.ServerConn, <-chan ssh.NewChannel, <-chan *ssh.Request, error) { //nolint:revive
+func (d *Driver) establishConnection(clientConn net.Conn) (*ssh.ServerConn, <-chan ssh.NewChannel, <-chan *ssh.Request, error) {
 	srcConn, srcConnChannels, srcConnReqs, err := ssh.NewServerConn(clientConn, d.serverConfig)
 	if err != nil {
 		return nil, nil, nil, log.Errorf("PROXYSSH: %s: %s: Failed to establish server connection: %v", d.name, clientConn.RemoteAddr(), err)
