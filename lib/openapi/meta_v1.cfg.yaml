@@ -8,4 +8,4 @@ generate:
   echo-server: true
 additional-imports:
   - alias: .
-    package: github.com/adobe/aquarium-fish/lib/openapi/types
+    package: github.com/sparshev/aquarium-fish/lib/openapi/types

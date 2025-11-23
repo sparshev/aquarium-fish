@@ -1,5 +1,6 @@
 /**
  * Copyright 2021 Adobe. All rights reserved.
+ * Copyright 2025 Sergei Parshev.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License. You may obtain a copy
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -22,8 +23,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/steinfletcher/apitest"
 
-	"github.com/adobe/aquarium-fish/lib/openapi/types"
-	h "github.com/adobe/aquarium-fish/tests/helper"
+	"github.com/sparshev/aquarium-fish/lib/openapi/types"
+	h "github.com/sparshev/aquarium-fish/tests/helper"
 )
 
 // Will allocate 2 Applications and restart the fish node to check if they will be picked up after

@@ -1,5 +1,6 @@
 /**
  * Copyright 2021 Adobe. All rights reserved.
+ * Copyright 2025 Sergei Parshev.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License. You may obtain a copy
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -33,10 +34,10 @@ import (
 	_ "github.com/oapi-codegen/oapi-codegen/v2/pkg/util" // We need util here otherwise it will not load the needed imports and fail go.mod vetting
 	"gopkg.in/yaml.v3"
 
-	"github.com/adobe/aquarium-fish/lib/fish"
-	"github.com/adobe/aquarium-fish/lib/log"
-	"github.com/adobe/aquarium-fish/lib/openapi/api"
-	"github.com/adobe/aquarium-fish/lib/openapi/meta"
+	"github.com/sparshev/aquarium-fish/lib/fish"
+	"github.com/sparshev/aquarium-fish/lib/log"
+	"github.com/sparshev/aquarium-fish/lib/openapi/api"
+	"github.com/sparshev/aquarium-fish/lib/openapi/meta"
 )
 
 // YamlBinder is used to decode yaml requests
