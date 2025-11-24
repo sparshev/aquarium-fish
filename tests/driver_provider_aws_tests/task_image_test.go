@@ -1,5 +1,6 @@
 /**
  * Copyright 2025 Adobe. All rights reserved.
+ * Copyright 2025 Aquarium Developers. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License. You may obtain a copy
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -23,10 +24,10 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	aquariumv2 "github.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2"
-	"github.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2/aquariumv2connect"
-	awsH "github.com/adobe/aquarium-fish/tests/driver_provider_aws_tests/helper"
-	h "github.com/adobe/aquarium-fish/tests/helper"
+	aquariumv2 "github.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2"
+	"github.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2/aquariumv2connect"
+	awsH "github.com/sparshev/aquarium-fish/tests/driver_provider_aws_tests/helper"
+	h "github.com/sparshev/aquarium-fish/tests/helper"
 )
 
 // Test_aws_task_image tests the AWS TaskImage functionality

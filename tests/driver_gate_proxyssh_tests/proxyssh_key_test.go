@@ -1,5 +1,6 @@
 /**
  * Copyright 2024-2025 Adobe. All rights reserved.
+ * Copyright 2025 Aquarium Developers. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License. You may obtain a copy
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -33,11 +34,11 @@ import (
 	"github.com/google/uuid"
 	"github.com/steinfletcher/apitest"
 
-	"github.com/adobe/aquarium-fish/lib/crypt"
-	aquariumv2 "github.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2"
-	"github.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2/aquariumv2connect"
-	"github.com/adobe/aquarium-fish/lib/util"
-	h "github.com/adobe/aquarium-fish/tests/helper"
+	"github.com/sparshev/aquarium-fish/lib/crypt"
+	aquariumv2 "github.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2"
+	"github.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2/aquariumv2connect"
+	"github.com/sparshev/aquarium-fish/lib/util"
+	h "github.com/sparshev/aquarium-fish/tests/helper"
 )
 
 // Checks that proxyssh can establish ssh connection with TTY and execute there a simple command

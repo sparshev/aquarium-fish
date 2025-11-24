@@ -1,5 +1,6 @@
 /**
  * Copyright 2025 Adobe. All rights reserved.
+ * Copyright 2025 Aquarium Developers. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License. You may obtain a copy
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -19,8 +20,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/adobe/aquarium-fish/lib/auth"
-	"github.com/adobe/aquarium-fish/lib/log"
+	"github.com/sparshev/aquarium-fish/lib/auth"
+	"github.com/sparshev/aquarium-fish/lib/log"
 )
 
 // RBACHandler is a HTTP middleware that handles authorization

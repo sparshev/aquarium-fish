@@ -1,4 +1,5 @@
 // Copyright 2025 Adobe. All rights reserved.
+// Copyright 2025 Aquarium Developers. All rights reserved.
 // This file is licensed to you under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License. You may obtain a copy
 // of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -1177,7 +1178,7 @@ const file_aquarium_v2_node_proto_rawDesc = "" +
 	"\x04List\x12#.aquarium.v2.NodeServiceListRequest\x1a$.aquarium.v2.NodeServiceListResponse\"\x00\x12P\n" +
 	"\x03Get\x12\".aquarium.v2.NodeServiceGetRequest\x1a#.aquarium.v2.NodeServiceGetResponse\"\x00\x12\\\n" +
 	"\aGetThis\x12&.aquarium.v2.NodeServiceGetThisRequest\x1a'.aquarium.v2.NodeServiceGetThisResponse\"\x00\x12q\n" +
-	"\x0eSetMaintenance\x12-.aquarium.v2.NodeServiceSetMaintenanceRequest\x1a..aquarium.v2.NodeServiceSetMaintenanceResponse\"\x00BEZCgithub.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
+	"\x0eSetMaintenance\x12-.aquarium.v2.NodeServiceSetMaintenanceRequest\x1a..aquarium.v2.NodeServiceSetMaintenanceResponse\"\x00BHZFgithub.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
 
 var (
 	file_aquarium_v2_node_proto_rawDescOnce sync.Once

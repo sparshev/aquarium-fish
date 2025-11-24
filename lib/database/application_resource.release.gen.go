@@ -19,7 +19,7 @@ package database
 import (
 	"context"
 
-	typesv2 "github.com/adobe/aquarium-fish/lib/types/aquarium/v2"
+	typesv2 "github.com/sparshev/aquarium-fish/lib/types/aquarium/v2"
 )
 
 func (d *Database) ApplicationResourceList(ctx context.Context) ([]typesv2.ApplicationResource, error) {

@@ -1,4 +1,4 @@
-module github.com/adobe/aquarium-fish
+module github.com/sparshev/aquarium-fish
 
 go 1.23.0
 

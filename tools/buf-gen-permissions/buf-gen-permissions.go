@@ -1,5 +1,6 @@
 /**
  * Copyright 2025 Adobe. All rights reserved.
+ * Copyright 2025 Aquarium Developers. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License. You may obtain a copy
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -29,9 +30,9 @@ import (
 	"google.golang.org/protobuf/types/descriptorpb"
 	"google.golang.org/protobuf/types/pluginpb"
 
-	"github.com/adobe/aquarium-fish/lib/auth"
-	"github.com/adobe/aquarium-fish/lib/build"
-	aquariumv2 "github.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2"
+	"github.com/sparshev/aquarium-fish/lib/auth"
+	"github.com/sparshev/aquarium-fish/lib/build"
+	aquariumv2 "github.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2"
 )
 
 const (
@@ -55,6 +56,7 @@ type Permission struct {
 
 var serviceMethodConstantsTmplGo = template.Must(template.New("service_method_constants").Parse(`/**
  * Copyright 2025 Adobe. All rights reserved.
+ * Copyright 2025 Aquarium Developers. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License. You may obtain a copy
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -134,6 +136,7 @@ func IsEcludedFromRBAC(service, method string) bool {
 
 var serviceMethodConstantsTmplTs = `/**
  * Copyright 2025 Adobe. All rights reserved.
+ * Copyright 2025 Aquarium Developers. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License. You may obtain a copy
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -206,6 +209,7 @@ export function isExcludedFromRBAC(service: string, method: string): boolean {
 
 var combinedPermissionsTmpl = template.Must(template.New("combined_permissions").Parse(`/**
  * Copyright 2025 Adobe. All rights reserved.
+ * Copyright 2025 Aquarium Developers. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License. You may obtain a copy
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -221,7 +225,7 @@ var combinedPermissionsTmpl = template.Must(template.New("combined_permissions")
 package auth
 
 import (
-	typesv2 "github.com/adobe/aquarium-fish/lib/types/aquarium/v2"
+	typesv2 "github.com/sparshev/aquarium-fish/lib/types/aquarium/v2"
 )
 
 // All available permissions per role

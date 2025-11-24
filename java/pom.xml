@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.adobe.ci.aquarium</groupId>
+    <groupId>com.sparshev.ci.aquarium</groupId>
     <artifactId>aquarium-fish-java</artifactId>
     <version>dev-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Aquarium Fish Java Library</name>
     <description>Generated Java code from Aquarium proto specifications</description>
-    <url>https://github.com/adobe/aquarium-fish/</url>
+    <url>https://github.com/sparshev/aquarium-fish/</url>
 
     <developers>
         <developer>
@@ -177,24 +177,24 @@
                             <relocations>
                                 <relocation>
                                     <pattern>com.google.common</pattern>
-                                    <shadedPattern>com.adobe.ci.aquarium.shaded.guava.common</shadedPattern>
+                                    <shadedPattern>com.sparshev.ci.aquarium.shaded.guava.common</shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>com.google.errorprone</pattern>
-                                    <shadedPattern>com.adobe.ci.aquarium.shaded.errorprone</shadedPattern>
+                                    <shadedPattern>com.sparshev.ci.aquarium.shaded.errorprone</shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>com.google.j2objc</pattern>
-                                    <shadedPattern>com.adobe.ci.aquarium.shaded.j2objc</shadedPattern>
+                                    <shadedPattern>com.sparshev.ci.aquarium.shaded.j2objc</shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>org.checkerframework</pattern>
-                                    <shadedPattern>com.adobe.ci.aquarium.shaded.checkerframework</shadedPattern>
+                                    <shadedPattern>com.sparshev.ci.aquarium.shaded.checkerframework</shadedPattern>
                                 </relocation>
                                 <!-- Add if Gson conflicts arise (e.g., with Jenkins' JSON libs) -->
                                 <relocation>
                                     <pattern>com.google.gson</pattern>
-                                    <shadedPattern>com.adobe.ci.aquarium.shaded.gson</shadedPattern>
+                                    <shadedPattern>com.sparshev.ci.aquarium.shaded.gson</shadedPattern>
                                 </relocation>
                             </relocations>
                             <artifactSet>

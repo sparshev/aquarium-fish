@@ -1,8 +1,8 @@
-# [Aquarium Fish](https://github.com/adobe/aquarium-fish)
+# [Aquarium Fish](https://github.com/sparshev/aquarium-fish)
 
-[![CI](https://github.com/adobe/aquarium-fish/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/adobe/aquarium-fish/actions/workflows/main.yml)
+[![CI](https://github.com/sparshev/aquarium-fish/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/sparshev/aquarium-fish/actions/workflows/main.yml)
 
-Main part of the [Aquarium](https://github.com/adobe/aquarium-fish/wiki/Aquarium) distributed p2p
+Main part of the [Aquarium](https://github.com/sparshev/aquarium-fish/wiki/Aquarium) distributed p2p
 system to manage resources. Primarily was developed to manage the dynamic Jenkins CI agents in
 heterogeneous environment and simplify the infrastructure management, but can be used in various
 applications to have self-management resources with simple gRPC/Connect API to operate p2p cluster.
@@ -16,6 +16,12 @@ dynamic nature of the envs.
 The Aquarium system will make the resource management as simple as possible and will unify the
 dynamic resource management by integrating multiple environment providers (VM, container, native,
 clouds, etc.) to one entry point of allocating devices which can be used across the organization.
+
+## Fork
+
+This fork was done because I left Adobe and lost admin access to the [original repository](https://github.com/adobe/aquarium-fish).
+So as original author I continue to maintain & develop the project separately to ensure it works
+stable and without issues.
 
 ## Requirements
 
@@ -92,6 +98,10 @@ check that the server (or client) is the one is approved in the cluster.
 Maybe in the future Fish will allow to manage the cluster CA and issue certificate for a new node,
 but for now just check openssl and https://github.com/jcmoraisjr/simple-ca for reference.
 
+Please note - Aquarium was designed as internal (not public internet-facing) service. It should be
+protected by your local/corp network and additional measures to improve preventing of the
+unauthorized access.
+
 #### Performance
 
 It really depends on how you want to run the Fish node, in general there are 2 cases:
@@ -113,7 +123,7 @@ https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-argon2-04#section-4
 
 ### To run as a cluster
 
-**TODO [#30](https://github.com/adobe/aquarium-fish/issues/30):** This functionality is in active
+**TODO [#4](https://github.com/sparshev/aquarium-fish/issues/4):** This functionality is in active
 development, the available logic can't handle the cluster.
 
 Just make sure there is a path from one node to at least one another - there is no requirement of
@@ -135,7 +145,7 @@ general directions:
 6. When you're done - request Application to deallocate the resource
 7. Make sure the Application status is "DEALLOCATED"
 
-To use with Jenkins - you can install [Aquarium Net Jenkins](https://github.com/adobe/aquarium-net-jenkins)
+To use with Jenkins - you can install [Aquarium Net Jenkins](https://github.com/sparshev/aquarium-net-jenkins)
 cloud plugin to dynamically allocate the required resources. Don't forget to add the served Labels
 to the cluster and you will be ready to go.
 
@@ -255,10 +265,6 @@ For now the rule is simple - when all the nodes are voted, each node can find th
 vote table that answered "yes". There are a couple of protection mechanisms like "CreateAt" to find
 the actual first one and "Rand" field as a last resort (if the other params are identical).
 
-In the future to allow to update cluster with the new rules the Rules table will be created and the
-different versions of the Aquarium Fish could find the common rules and switch them depends on
-Application request. Rules will be able to lay on top of any information about the node [#15](https://github.com/adobe/aquarium-fish/issues/15).
-
 The election process:
 * Once per 5 seconds the node checks the voting process
 * If there is Application with status NEW:
@@ -348,7 +354,7 @@ You can run them locally like that:
 $ go test -bench . -benchmem '-run=^#' -cpu 1,2 ./...
 goos: darwin
 goarch: amd64
-pkg: github.com/adobe/aquarium-fish/lib/crypt
+pkg: github.com/sparshev/aquarium-fish/lib/crypt
 cpu: Intel(R) Core(TM) i9-9880H CPU @ 2.30GHz
 Benchmark_hash_new         	      20	  65924472 ns/op	67122440 B/op	     180 allocs/op
 Benchmark_hash_new-2       	      33	  34709165 ns/op	67122834 B/op	     181 allocs/op
@@ -428,3 +434,12 @@ $ curl -u "admin:YOUR_TOKEN" -X POST "https://127.0.0.1:8001/grpc/aquarium.v2.Ap
 ```
 
 Also check `examples` and `tests` folder to get more info about the typical API usage.
+
+## License
+
+Copyright 2021-2025 Adobe. All rights reserved.
+Copyright 2025 Aquarium Developers. All rights reserved.
+
+Modifications since November 23, 2025 are copyrighted by Aquarium Developers.
+
+Licensed under the Apache License, Version 2.0. See LICENSE for details.

@@ -1,4 +1,5 @@
 // Copyright 2025 Adobe. All rights reserved.
+// Copyright 2025 Aquarium Developers. All rights reserved.
 // This file is licensed to you under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License. You may obtain a copy
 // of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -161,7 +162,7 @@ const file_aquarium_v2_vote_proto_rawDesc = "" +
 	"\tavailable\x18\x06 \x01(\x05R\tavailable\x12\x1f\n" +
 	"\vrule_result\x18\a \x01(\rR\n" +
 	"ruleResult\x12\x12\n" +
-	"\x04rand\x18\b \x01(\rR\x04randBEZCgithub.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
+	"\x04rand\x18\b \x01(\rR\x04randBHZFgithub.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
 
 var (
 	file_aquarium_v2_vote_proto_rawDescOnce sync.Once

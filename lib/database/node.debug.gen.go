@@ -21,7 +21,7 @@ import (
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/codes"
 
-	typesv2 "github.com/adobe/aquarium-fish/lib/types/aquarium/v2"
+	typesv2 "github.com/sparshev/aquarium-fish/lib/types/aquarium/v2"
 )
 
 var debugTracerDatabaseNode = otel.Tracer("aquarium-fish/database")

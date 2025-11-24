@@ -1,4 +1,5 @@
 // Copyright 2025 Adobe. All rights reserved.
+// Copyright 2025 Aquarium Developers. All rights reserved.
 // This file is licensed to you under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License. You may obtain a copy
 // of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -134,7 +135,7 @@ const file_aquarium_v2_options_streaming_proto_rawDesc = "" +
 	"\x10permission_check\x18\x01 \x01(\tH\x00R\x0fpermissionCheck\x88\x01\x01B\x13\n" +
 	"\x11_permission_check:m\n" +
 	"\x10subscribe_config\x12\x1f.google.protobuf.MessageOptions\x18ц\x03 \x01(\v2\x1c.aquarium.v2.SubscribeConfigR\x0fsubscribeConfig\x88\x01\x01:Z\n" +
-	"\x16skip_service_streaming\x12\x1f.google.protobuf.ServiceOptions\x18҆\x03 \x01(\bR\x14skipServiceStreaming\x88\x01\x01BEZCgithub.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
+	"\x16skip_service_streaming\x12\x1f.google.protobuf.ServiceOptions\x18҆\x03 \x01(\bR\x14skipServiceStreaming\x88\x01\x01BHZFgithub.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
 
 var (
 	file_aquarium_v2_options_streaming_proto_rawDescOnce sync.Once

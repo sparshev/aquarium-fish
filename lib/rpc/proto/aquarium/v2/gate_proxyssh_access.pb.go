@@ -1,4 +1,5 @@
 // Copyright 2025 Adobe. All rights reserved.
+// Copyright 2025 Aquarium Developers. All rights reserved.
 // This file is licensed to you under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License. You may obtain a copy
 // of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -281,7 +282,7 @@ const file_aquarium_v2_gate_proxyssh_access_proto_rawDesc = "" +
 	"\amessage\x18\x02 \x01(\tR\amessage\x123\n" +
 	"\x04data\x18\x03 \x01(\v2\x1f.aquarium.v2.GateProxySSHAccessR\x04data2\xc9\x01\n" +
 	"\x13GateProxySSHService\x12\xab\x01\n" +
-	"\x11GetResourceAccess\x128.aquarium.v2.GateProxySSHServiceGetResourceAccessRequest\x1a9.aquarium.v2.GateProxySSHServiceGetResourceAccessResponse\"!\x82\xb5\x18\x1d\x1a\x05Power\"\x14GetResourceAccessAll\x1a\x04\x90\xb5\x18\x01BEZCgithub.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
+	"\x11GetResourceAccess\x128.aquarium.v2.GateProxySSHServiceGetResourceAccessRequest\x1a9.aquarium.v2.GateProxySSHServiceGetResourceAccessResponse\"!\x82\xb5\x18\x1d\x1a\x05Power\"\x14GetResourceAccessAll\x1a\x04\x90\xb5\x18\x01BHZFgithub.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
 
 var (
 	file_aquarium_v2_gate_proxyssh_access_proto_rawDescOnce sync.Once

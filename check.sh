@@ -1,5 +1,6 @@
 #/bin/sh
 # Copyright 2021-2025 Adobe. All rights reserved.
+# Copyright 2025 Aquarium Developers. All rights reserved.
 # This file is licensed to you under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License. You may obtain a copy
 # of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -40,8 +41,8 @@ for f in $(git diff --name-only origin/main); do
             fi
 
             # Should contain copyright
-            if !(head -20 "$f" | grep -q 'Copyright 20.\+ Adobe. All rights reserved'); then
-                echo "ERROR: Should contain Adobe copyright header: $f"
+            if !(head -20 "$f" | grep -q 'Copyright 20.\+ Aquarium Developers. All rights reserved'); then
+                echo "ERROR: Should contain Aquarium Developers copyright header: $f"
                 errors=$((${errors} + 1))
             fi
 
@@ -58,7 +59,7 @@ for f in $(git diff --name-only origin/main); do
             fi
 
             # Copyright year in files should be the current year
-            if !(head -20 "$f" | grep 'Copyright 20.\+ Adobe. All rights reserved' | fgrep -q "$(date '+%Y')"); then
+            if !(head -20 "$f" | grep 'Copyright 20.\+ Aquarium Developers. All rights reserved' | fgrep -q "$(date '+%Y')"); then
                 echo "ERROR: Copyright header need to be adjusted to contain current year like: 20??-$(date '+%Y') $f"
                 errors=$((${errors} + 1))
             fi

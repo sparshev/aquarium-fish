@@ -1,4 +1,5 @@
 // Copyright 2025 Adobe. All rights reserved.
+// Copyright 2025 Aquarium Developers. All rights reserved.
 // This file is licensed to you under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License. You may obtain a copy
 // of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -1808,7 +1809,7 @@ const file_aquarium_v2_application_proto_rawDesc = "" +
 	"\aGetTask\x12-.aquarium.v2.ApplicationServiceGetTaskRequest\x1a..aquarium.v2.ApplicationServiceGetTaskResponse\"\x17\x82\xb5\x18\x13\x1a\x05Power\"\n" +
 	"GetTaskAll\x12\x8c\x01\n" +
 	"\n" +
-	"Deallocate\x120.aquarium.v2.ApplicationServiceDeallocateRequest\x1a1.aquarium.v2.ApplicationServiceDeallocateResponse\"\x19\x82\xb5\x18\x15\x1a\x04User\"\rDeallocateAllBEZCgithub.com/adobe/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
+	"Deallocate\x120.aquarium.v2.ApplicationServiceDeallocateRequest\x1a1.aquarium.v2.ApplicationServiceDeallocateResponse\"\x19\x82\xb5\x18\x15\x1a\x04User\"\rDeallocateAllBHZFgithub.com/sparshev/aquarium-fish/lib/rpc/proto/aquarium/v2;aquariumv2b\x06proto3"
 
 var (
 	file_aquarium_v2_application_proto_rawDescOnce sync.Once
