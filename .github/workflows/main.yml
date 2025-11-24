@@ -153,16 +153,15 @@ jobs:
           INPUT_CHECKS_CONFIG: gobenchdata-checks.yml
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
 
-      # No need in the stable branch
-      #- name: Benchmarks PR
-      #  run: go run go.bobheadxi.dev/gobenchdata@v1 action
-      #  if: github.ref != 'refs/heads/main'
-      #  env:
-      #    INPUT_PUBLISH: false
-      #    INPUT_CHECKS: true
-      #    INPUT_PRUNE_COUNT: 30
-      #    INPUT_GO_TEST_FLAGS: "-run=^# -cpu 1,2 -benchmem"
-      #    INPUT_CHECKS_CONFIG: gobenchdata-checks.yml
+      - name: Benchmarks PR
+        run: go run go.bobheadxi.dev/gobenchdata@v1 action
+        if: github.ref != 'refs/heads/main'
+        env:
+          INPUT_PUBLISH: false
+          INPUT_CHECKS: true
+          INPUT_PRUNE_COUNT: 30
+          INPUT_GO_TEST_FLAGS: "-run=^# -cpu 1,2 -benchmem"
+          INPUT_CHECKS_CONFIG: gobenchdata-checks.yml
 
       - name: Upload test results
         uses: actions/upload-artifact@v4
