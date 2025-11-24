@@ -24,7 +24,7 @@ echo
 # Checking only added/modified files since main
 for f in $(git diff --name-only origin/main); do
     # Check text files
-    if file "$f" | grep -q 'text$'; then
+    if file "$f" | grep -q 'text'; then
         # Ends with newline as POSIX requires
         if [ -n "$(tail -c 1 "$f")" ]; then
             echo "ERROR: Should end with newline: $f"
